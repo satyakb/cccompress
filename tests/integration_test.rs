@@ -1,6 +1,6 @@
-use std::{fs, path::PathBuf};
-
 use cccompress::compressor;
+
+use std::{fs, path::PathBuf};
 
 fn read_file(filename: String) -> Vec<u8> {
     let mut d = PathBuf::from(env!("CARGO_MANIFEST_DIR"));

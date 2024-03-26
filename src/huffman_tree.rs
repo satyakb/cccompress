@@ -1,11 +1,11 @@
+use crate::BitEncoding;
+
 use bitvec::prelude::*;
 use serde::{Deserialize, Serialize};
 use std::{
     cmp::{Ordering, Reverse},
     collections::{BinaryHeap, HashMap},
 };
-
-use crate::BitEncoding;
 
 #[derive(Serialize, Deserialize, Debug)]
 pub enum HuffmanNode<T> {

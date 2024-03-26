@@ -1,9 +1,8 @@
-use std::fs;
-use std::path::PathBuf;
+use cccompress::compressor;
 
 use clap::{Parser, Subcommand};
-
-use cccompress::compressor;
+use std::fs;
+use std::path::PathBuf;
 
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]

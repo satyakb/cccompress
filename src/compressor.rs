@@ -1,10 +1,10 @@
 use crate::frequency_table::FrequencyTable;
 use crate::huffman_tree::HuffmanTree;
 use crate::BitEncoding;
-use bitvec::prelude::*;
-use std::collections::HashMap;
 
+use bitvec::prelude::*;
 use postcard::{from_bytes, to_allocvec};
+use std::collections::HashMap;
 extern crate alloc;
 use alloc::vec::Vec as Allocvec;
 
