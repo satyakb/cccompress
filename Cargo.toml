@@ -1,0 +1,15 @@
+[package]
+name = "cccompress"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitvec = "1.0.1"
+clap = { version = "4.5.3", features = ["derive"] }
+postcard = { version = "1.0.8", features = ["alloc"] }
+serde = { version = "1.0.197", features = ["derive"] }
+
+[profile.release]
+debug = true
