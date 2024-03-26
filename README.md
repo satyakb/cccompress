@@ -1,5 +1,5 @@
 # CCCompress
-Rust implementation of a compression tool using a Huffman Coding Tree. Followed [Compression Tool Coding Challenge](https://codingchallenges.fyi/challenges/challenge-huffman/).
+Rust implementation of a compression tool using a [Huffman Coding Tree](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/Huffman.html). Followed [Compression Tool Coding Challenge](https://codingchallenges.fyi/challenges/challenge-huffman/).
 
 ## Usage
 ```
